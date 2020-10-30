@@ -1,0 +1,11 @@
+html{
+    display: block;
+    align-content: center;
+    height: 100%;
+    width: 80%;
+}
+body {
+    display: block;
+    align-items: center;
+    width: 75%;
+}
