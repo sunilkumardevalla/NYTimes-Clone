@@ -110,9 +110,18 @@ main section p {
     flex-direction: row;
     justify-content: space-between;
 }
-.sidebar {
-    display: flex;
-    justify-content: right;
-    width: 70px;
-    height: 70px;
+aside {
+  display: grid;
+  grid-template-columns: 75px 150px;
+  grid-template-rows: repeat(4,auto-fit);
+  margin-left: 220%;
+}
+aside img {
+    height: 75px;
+    width: 75px;
+}
+aside a {
+    font-size: 14px;
+    margin: 6px;
+
 }
