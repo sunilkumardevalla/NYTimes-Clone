@@ -110,3 +110,9 @@ main section p {
     flex-direction: row;
     justify-content: space-between;
 }
+.sidebar {
+    display: flex;
+    justify-content: right;
+    width: 70px;
+    height: 70px;
+}
