@@ -117,11 +117,33 @@ aside {
   margin-left: 220%;
 }
 aside img {
-    height: 75px;
-    width: 75px;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
 }
 aside a {
     font-size: 14px;
-    margin: 6px;
+    margin-left: 15px;
+    margin-top: 5px;
 
+}
+/*Bottom -Nav*/
+.bottom-nav {
+    margin: 5% 10% 10px 10%;
+}
+.bottom-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom-head img{
+    height: 50px;
+}
+.bottom-header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom-header-nav a {
+    margin: 2px;
 }
