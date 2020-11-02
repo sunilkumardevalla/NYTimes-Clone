@@ -147,3 +147,11 @@ aside a {
 .bottom-header-nav a {
     margin: 2px;
 }
+.footer-icons {
+    height: 20px;
+    width: 20px;
+}
+.footer-align {
+    display: flex;
+    flex-direction: row;
+}
