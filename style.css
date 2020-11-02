@@ -110,3 +110,20 @@ main section p {
     flex-direction: row;
     justify-content: space-between;
 }
+/*Bottom -Nav*/
+.bottom-nav {
+    margin: 5% 10% 10px 10%;
+}
+.bottom-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom-head img{
+    height: 50px;
+}
+.bottom-header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
