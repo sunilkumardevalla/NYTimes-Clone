@@ -14,21 +14,25 @@
 
 <body>
     <header>
-        <div>
-            <a><i class="fas fa-bars"></i></a>
-            <a><i class="fas fa-search"></i></a>
-            <a>SPACE & COSMOS</a>
-        </div>
-        <a><img src="./assets/download.png" alt="Main-logo"></a>
-        <div>
-            <button type="button">SUBSCRIBE NOW</button>
-            <button type="button">LOG IN</button>
-        </div>
+        <nav>
+            <div class="nav-left">
+                <a><i class="fas fa-bars"></i></a>
+                <a><i class="fas fa-search"></i></a>
+                <p><a>SPACE & COSMOS</a></p>
+            </div>
+            <div class="nav-center">
+                <a><img src="./assets/download.png" alt="Main-logo"></a>
+            </div>
+            <div class="nav-right">
+                <button type="button" class="nav-button">SUBSCRIBE NOW</button>
+                <button type="button" class="nav-button">LOG IN</button>
+            </div>
+        </nav>
     </header>
     <main>
-        <article>
+        <article class="main-article">
             <h2>Space Ripples Reveal Big Bang’s Smoking Gun</h2>
-            <img src="./assets/18cosmos-superJumbo.jpg" alt="First-Image">
+            <img id="main-img1" src="./assets/18cosmos-superJumbo.jpg" alt="First-Image">
             <p>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains
                 how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion
                 years ago.Credit...Rick Friedman for The New York Times</p>
@@ -38,7 +42,7 @@
                 <h4>By Dennis Overbye</h4>
             </div>
         </section>
-        <section>
+        <section class="main-section-icons">
             <div>
                 <p>March 17, 2014</p>
             </div>
@@ -150,6 +154,16 @@
             </p>
         </section>
         <section>
+            <iframe width="600" height="358" src="https://www.youtube.com/embed/ZlfIVEy_YOA"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <span>Stanford Professor Andrei Linde celebrates physics breakthroughCredit...CreditVideo by
+                StanfordUniversity
+            </span>
+
+        </section>
+        <section>
             <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
             <p>“And then I told him that in the beginning we thought that this was a delivery but we did not think that
                 we ordered anything, but I simply forgot that actually I did order it, 30 years ago,” Dr. Linde wrote in
@@ -206,6 +220,14 @@
                 “The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has
                 been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
             </p>
+        </section>
+        <section>
+            <img id="main-section-img2" src="./assets/article-img2.jpg" alt="Space Image">
+            <span class="main-section-img2-span">The Bicep2 telescope, in the foreground, was used to detect the faint
+                spiraling gravity patterns — the signature of a universe being wrenched violently apart at its
+                birth.Credit...Steffen Richter/Associated
+                Press
+            </span>
         </section>
         <section>
             <p>
@@ -292,6 +314,19 @@
                 “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part
                 of the team, “you wind up at inflation.”
             </p>
+            <section id="main-section-belowicons">
+                <div><button type="button">
+                        READ 615 COMMENTS
+                    </button>
+                </div>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-share"></i>
+                    <i class="fal fa-bookmark"></i>
+                </div>
+            </section>
         </section>
     </main>
 </body>
