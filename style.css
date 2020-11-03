@@ -140,6 +140,23 @@ aside a {
     margin-top: 5px;
 
 }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 2000px;
+    background-image: url("/assets/theuniverse.png");
+}
+
+.img-row1 {
+    display: flex;
+}
+
+.img-row2 {
+    display: flex;
+}
+
+
 /*Bottom -Nav*/
 .bottom-nav {
     margin: 5% 10% 10px 10%;
