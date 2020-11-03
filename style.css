@@ -110,15 +110,28 @@ main section p {
     flex-direction: row;
     justify-content: space-between;
 }
+#section-align { 
+    margin-bottom: -100px;
+}
+#section-align1 {
+    margin-top: 180px;
+    margin-left: 40%;
+}
+#section-align2 {
+    margin-top: -200px;
+}
+#section-align3 {
+    margin-top: -100px;
+}
 aside {
   display: grid;
   grid-template-columns: 75px 150px;
   grid-template-rows: repeat(4,auto-fit);
-  margin-left: 220%;
+  margin-left: 120%;
 }
 aside img {
     height: 80px;
-    width: 80px;
+    width: 90px;
     margin: 5px;
 }
 aside a {
