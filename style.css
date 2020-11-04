@@ -142,11 +142,11 @@ aside a {
 }
 .img-container-head {
     margin: 0 auto;
-   width: 900px;
+   width: 60%;
 }
 .img-container-head-p {
     margin: 0 auto;
-    width: 900px;
+    width: 60%;
     color: rgb(148, 148, 148);
 }
 
@@ -156,18 +156,18 @@ aside a {
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
-    width: 900px;
-    height: 700px;
+    width: 60%;
+    height: 40%;
     grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: auto;
+    grid-auto-rows: auto;
 }
 .img-container p {
     font-family: sans-serif;
     font-size: small;
-    width:200px;
-    height: auto;
-    margin-top: 150px;
-    margin-bottom: 0;
+    width: 200px;
+    height: 100%;
+    margin-top: 200px;
+    margin-bottom: 20px;
     font-weight: lighter;
 }
 .container1 {
@@ -203,10 +203,10 @@ aside a {
     grid-row: 4/5;
 }
 .container-span{
-    width: 50%;
+    width: 60%;
     margin-top: 0;
     margin-bottom:20px;
-    margin-left: 19%
+    margin-left: 20%
 
 }
 
