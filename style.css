@@ -209,6 +209,37 @@ aside a {
     margin-left: 20%
 
 }
+.NewslettersContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 35%;
+    margin-left: 10%;
+}
+.newsletter-Grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 35%;
+    margin-left: 10%;
+
+}
+.squares-Newsletter {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border: 1px solid rgb(214, 217, 219);
+    width: 250px;
+    height: 250px;
+    margin: 0;
+}
+.squares-Newsletter img {
+    height: 80px;
+    width: 80px;
+}
+
 
 /*Bottom -Nav*/
 .footer-border{
