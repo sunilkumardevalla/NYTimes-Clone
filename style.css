@@ -52,7 +52,16 @@ main {
 .main-article{
     width: 90%;
     margin-left: 10%;
-    
+}
+figcaption {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 15px;
+    color: #666;
+    height: 20%;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 .main-article h2 {
     font-family: 'PT Serif', serif;
