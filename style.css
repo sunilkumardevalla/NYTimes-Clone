@@ -64,10 +64,11 @@ figcaption {
     border: 0;
 }
 .main-article h2 {
-    font-family: 'PT Serif', serif;
-    font-size: 2.2rem;
-    line-height: 3rem;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
     font-style: italic;
+    line-height: 3rem;
+    font-size: 2.2rem;
     font-weight: 500;
     margin-top: 3em;
     margin-bottom: 0.8em;
@@ -88,12 +89,21 @@ main section{
     margin-left: 30%;
 
 }
-.main-section-icons{
+.main-section-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.main-section-icons p{
+font-family: nyt-franklin,helvetica,arial,sans-serif;
+font-weight: 500;
+font-size: 13px;
+color: #333;
+}
+.icon-alignment i {
+    margin-left: 10px;
 }
 main section p {
     margin-bottom: 0.78125rem;
@@ -125,6 +135,13 @@ main section p {
 #section-align1 {
     margin-top: 180px;
     margin-left: 40%;
+    font: bold;
+}
+.single-border {
+    margin-top:solid 1px #666;
+}
+#bluefont {
+    color: #326891;
 }
 #section-align2 {
     margin-top: -200px;
@@ -145,9 +162,15 @@ aside img {
 }
 aside a {
     font-size: 14px;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 5px;
 
+}
+aside p {
+    margin-bottom: solid 1px #333333;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 .img-container-head {
     margin: 0 auto;
