@@ -187,12 +187,13 @@ main section p {
 .sidebar-head {
     display: flex;
     justify-content: flex-end;
-    margin-left: 45%;
+    margin-left: 46%;
     margin-bottom: -90px;
 }
 .sidebar-head p {
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size: 15px;
+    font-weight: bolder;
     border-bottom: solid 1px #666;
 }
 aside {
@@ -428,6 +429,12 @@ aside a {
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.375rem;
+}
+.main-span-bottom {
+    font-weight: lighter;
+    color: #666;
+    font-size: smaller;
+}
 }
 
 /*Bottom -Nav*/
