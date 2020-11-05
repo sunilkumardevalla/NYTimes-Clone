@@ -1,3 +1,10 @@
+  /* General config */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+  
   /* Navigation Bar */
  nav{
     position: fixed;
@@ -120,7 +127,7 @@ main section p {
 }
 .main-section-img2-span {
     height: 70%;
-    width: 120%;
+    width: 120%;main-section-belowicons
     margin-left: -10%;
     margin-right: 0;
 }
@@ -129,6 +136,14 @@ main section p {
     flex-direction: row;
     justify-content: space-between;
 }
+#main-section-belowicons button {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: rgb(255, 255, 255);
+    padding: 11px 12px 8px;
+    width: 400px;
+    border-radius: 3px;
+} 
 #section-align { 
     margin-bottom: -100px;
 }
@@ -455,6 +470,7 @@ aside a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: black;
 }
 .bottom-header-nav a li {
     margin: 10px;
