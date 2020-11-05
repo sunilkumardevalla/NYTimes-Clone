@@ -127,7 +127,7 @@ main section p {
 }
 .main-section-img2-span {
     height: 70%;
-    width: 120%;main-section-belowicons
+    width: 120%;
     margin-left: -10%;
     margin-right: 0;
 }
@@ -434,7 +434,6 @@ aside a {
     font-weight: lighter;
     color: #666;
     font-size: smaller;
-}
 }
 
 /*Bottom -Nav*/
