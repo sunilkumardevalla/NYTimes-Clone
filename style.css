@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     width:100%;
-    height: 65px;
+    height: 45px;
     background-color: white;
     top: 0;
     border-bottom: 1px solid #e2e2e2;
@@ -28,7 +28,7 @@
     align-items: center;
   }
   .nav-center img {
-      height: 50px;
+      height: 45px;
 
   }
    /* Navigation Bar Right */
@@ -134,37 +134,37 @@ main section p {
 }
 .section-align1 div {
     margin-top: 180px;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 0;
     font: bold;
 }
 .tiny-border {
-    align-items: center;
-    margin-right: 2px;
-    margin-right: 20px;
-    border-bottom: 1px solid #201e1e;
+    border-bottom: 1px solid #b8b1b1;
     height: 1px;
-    width: 40%;
-    padding-bottom: 5px;
+    width: 25%;
+    margin-left: 90px;
+    margin-bottom: 20px;
 }
 .tiny-border1 {
-    border-bottom: 1px solid #201e1e;
+    border-bottom: 1px solid #b8b1b1;
     height: 1px;
-    width: 40%;
-    margin-top: -400px;
+    width: 25%;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+#main-mid-p {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-left: 30px;
 }
 #bluefont {
+    font-size: 17px;
     color: #326891;
-    font-size: 20px;
+    margin-left: 30px;
 }
-.section-align1 p {
-    margin-top: 10%;
-    align-items: center;
-}
-
 #section-align2 {
-    margin-top: -400px;
+    margin-top: -200px;
 }
 #section-align3 {
     margin-top: -100px;
@@ -172,11 +172,12 @@ main section p {
 .sidebar-head {
     display: flex;
     justify-content: flex-end;
-    font-size: 14px;
-    margin-left: 47%;
-    margin-bottom: -40px;
+    margin-left: 45%;
+    margin-bottom: -90px;
 }
 .sidebar-head p {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 15px;
     border-bottom: solid 1px #666;
 }
 aside {
@@ -500,7 +501,7 @@ footer li {
     bottom: 0;
     background-color: white;
     width: 100%;
-    height: 2%;
+    height: 5px;
     font-family: sans-serif;
     padding: 1.5em;
     border-top: 1px solid black;
@@ -514,9 +515,19 @@ footer li {
     width: 40%;
     margin-left: 10%;
   }
-  
+  .bottom-nav-align p {
+      margin-top: 0;
+      margin-bottom: 25px;
+  }
+  .Bottom-nav-float {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      margin-right: -90px;
+  }
   .sticky_svg {
     width: 12px;
     height: 12px;
+    margin-left: 20px;
   }
   
