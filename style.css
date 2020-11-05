@@ -287,6 +287,9 @@ aside a {
     margin-left: 10%;
     border-top: 1px solid #1f1d1d;
 }
+.NewslettersContainer p {
+    margin-top: 20px;
+}
 .newsletter-Grid {
     display: flex;
     flex-direction: row;
@@ -300,6 +303,7 @@ aside a {
 .squares-Newsletter {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border-radius: 3px;
     cursor: pointer;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -307,21 +311,29 @@ aside a {
     width: 250px;
     height: 250px;
 }
+.squares-Newsletter-img {
+    display: flex;
+    justify-content: space-between;
+}
+.squares-Newsletter-img i {
+    margin: 30px;
+}
 .squares-Newsletter p {
-    margin: 2px;
+    margin: 5px;
 }
 .squares-Newsletter h4 {
-    margin: 2px;
+    margin: 5px;
 }
 .squares-Newsletter h5 {
-    margin: 2px;
+    margin: 5px;
 }
 .squares-Newsletter a {
-    margin: 2px;
+    margin: 5px;
 }
 .squares-Newsletter img {
     height: 80px;
     width: 80px;
+    margin: 5px;
 }
 .footer-containers {
     display: flex;
@@ -329,7 +341,7 @@ aside a {
     justify-content: space-between;
     margin-right: 35%;
     margin-left: 10%;
-    margin-top: 0;
+    margin-top: 2%;
 }
 .article-main {
     display: flex;
@@ -358,19 +370,39 @@ aside a {
     height: 150px;
     width: 250px;
 }
+.articleImage p {
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    margin-bottom: 4px;
+}
+.articleImage span {
+    font-size: smaller;
+    color: rgb(153, 153, 153);
+}
 .article-top {
     margin-right: 35%;
     margin-left: 10%;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 0;
     border-top: 1px solid #1f1d1d;
 }
 .bottom-side-bar {
     float: right;
     width: 20%;
-    margin-top: -1300px;
-    margin-right: 100px;
+    margin-top: -1314px;
+    margin-right: 180px;
+    border-top: 1px solid #1f1d1d;
     
+}
+
+.side-bar-margin p {
+    border-top: 0.5px solid #ebe3e3; 
+    padding: 15px 0px;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
 }
 
 /*Bottom -Nav*/
@@ -453,3 +485,29 @@ footer li {
     height: auto;
     padding: 10px 5px;
 }
+/*Footer-nav*/
+.bottom-nav-bar {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    height: 2%;
+    font-family: sans-serif;
+    padding: 1.5em;
+    border-top: 1px solid black;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-nav-align {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 10%;
+  }
+  
+  .sticky_svg {
+    width: 12px;
+    height: 12px;
+  }
+  
