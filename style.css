@@ -132,28 +132,51 @@ main section p {
 #section-align { 
     margin-bottom: -100px;
 }
-#section-align1 {
+.section-align1 div {
     margin-top: 180px;
-    margin-left: 40%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
     font: bold;
 }
-.single-border {
-    margin-top:solid 1px #666;
+.tiny-border {
+    border-bottom: 1px solid #201e1e;
+    height: 1px;
+    width: 40%;
+    padding-bottom: 10px;
+}
+.tiny-border1 {
+    border-bottom: 1px solid #201e1e;
+    height: 1px;
+    width: 40%;
+    margin-top: -400px;
 }
 #bluefont {
     color: #326891;
 }
 #section-align2 {
-    margin-top: -200px;
+    margin-top: -400px;
 }
 #section-align3 {
     margin-top: -100px;
 }
+.sidebar-head {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    margin-left: 47%;
+    margin-bottom: -40px;
+}
+.sidebar-head p {
+    border-bottom: solid 1px #666;
+}
 aside {
   display: grid;
   grid-template-columns: 75px 150px;
-  grid-template-rows: repeat(4,auto-fit);
+  grid-template-rows: repeat(5,auto-fit);
   margin-left: 120%;
+  border-width: 5px;
+  border-top: solid 1px #666;
 }
 aside img {
     height: 80px;
@@ -165,12 +188,6 @@ aside a {
     margin-left: 30px;
     margin-top: 5px;
 
-}
-aside p {
-    margin-bottom: solid 1px #333333;
-    font-size: 14px;
-    margin-left: 30px;
-    margin-top: 5px;
 }
 .img-container-head {
     margin: 0 auto;
@@ -240,6 +257,27 @@ aside p {
     margin-bottom:20px;
     margin-left: 20%
 
+}
+.embeded-image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.embeded-image span {
+    margin-top: 10px;
+}
+.main-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-img figcaption {
+    margin-top: 10px;
+}
+#img-span {
+    font-size: smaller;
 }
 .NewslettersContainer {
     display: flex;
