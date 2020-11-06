@@ -60,6 +60,10 @@ aside img {
   margin: 5px;
 }
 
+.aside-img {
+  margin-left: -5px;
+}
+
 .nav-center img {
   height: 45px;
 }
@@ -574,12 +578,13 @@ aside {
 .footer-icons {
   height: 20px;
   width: 20px;
-  margin: 10px;
+  margin-top: 25px;
 }
 
 .footer-align {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .footer-align-border {
@@ -601,8 +606,11 @@ footer {
   margin-left: 70px;
 }
 
-.footer-icons-id {
-  margin-top: 8px;
+.footer-icons-id a {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: x-large;
+  font-weight: 700;
 }
 
 /* Footer-nav */

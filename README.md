@@ -1,40 +1,46 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # NYTimes-Clone
-Clone page of NewYork Times 
 
-We made a clone of the NYTimes page, it has a functional video, buttons, and interactive icons. It has mock suggestions showing video name and views, and a mock section for commentaries. The focus of this branch was to make everything fit in the right places.
-ScreenShot:
+We made a clone of the NYTimes page. The page works best on a 1366x768 resolution and using the firefox browser, assets might look out of place using other browsers or resolutions. It has a mock sign-up form with labels for email, phone number, and password.
 
-.![screenshot](./assets/ScreenShot.png)
 
-Built With
-HTML
-CSS
-Live Demo
-Live Demo Link : https://dsunilk.github.io/NYTimes-Clone/.
 
-1- Clone the repository
+![screenshot](./assets/img/Intuit-demo.png)
+ 
+## Built With
 
-2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
+- HTML5
+- CSS
+- Font Awesome
 
-3- Everything should be running by now.
+## Live Demo
 
-Authors
-bust_in_silhouette 
+[Live Demo Link](https://dsunilk.github.io/NYTimes-Clone/.)
 
-GitHub: @DsunilK 
-Twitter: @DsunilK
-Linkedin: @DsunilK
-bust_in_silhouette Angela Cuahutle
+👤 **Angela Cuahutle**
 
-GitHub: @angelacuahutle
-Twitter: @AngelaCunaDev
-handshake Contributing
+- GitHub: [@Angela](https://github.com/angelacuahutle)
+- Twiter: [@Angela](https://twitter.com/AngelaCunaDev)
+
+
+👤 **Sunil Devalla**
+
+- GitHub: [@DsunilK](https://github.com/DsunilK)
+- Linkedin: [@DsunilK](https://www.linkedin.com/in/dsunilk/)
+- Twiter: [@DsunilK](https://twitter.com/Sunil_Devalla)
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page] ()
+Feel free to check the [issues page](https://github.com/DsunilK/NYTimes-Clone/issues).
 
-Show your support
-Give a star if you like this project!
+## Show your support
 
-memo License
-This project is MIT licensed.
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+
