@@ -261,7 +261,7 @@ aside {
 
 .img-container {
   margin: 0 auto;
-  background: url("/assets/theuniverse.png");
+  background: url("./assets/theuniverse.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
