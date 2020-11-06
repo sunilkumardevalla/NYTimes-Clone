@@ -601,6 +601,10 @@ footer {
   margin-left: 70px;
 }
 
+.footer-icons-id {
+  margin-top: 8px;
+}
+
 /* Footer-nav */
 .bottom-nav-bar {
   position: fixed;
