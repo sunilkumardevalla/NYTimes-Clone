@@ -6,7 +6,7 @@ We made a clone of the NYTimes page. The page works best on a 1366x768 resolutio
 
 
 
-![screenshot](./assets/img/Intuit-demo.png)
+![screenshot](./assets/ScreenShot.png)
  
 ## Built With
 
