@@ -148,7 +148,7 @@ main section {
   margin-left: 10px;
 }
 
-#main-section-img2 {
+.main-section-img2 {
   height: 70%;
   width: 120%;
   margin-left: -10%;
@@ -162,13 +162,13 @@ main section {
   margin-right: 0;
 }
 
-#main-section-belowicons {
+.main-section-belowicons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-#main-section-belowicons button {
+.main-section-belowicons button {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   color: rgb(255, 255, 255);
@@ -177,7 +177,7 @@ main section {
   border-radius: 3px;
 }
 
-#section-align {
+.section-align {
   margin-bottom: -100px;
 }
 
@@ -217,11 +217,11 @@ main section {
   margin-left: 30px;
 }
 
-#section-align2 {
+.section-align2 {
   margin-top: -200px;
 }
 
-#section-align3 {
+.section-align3 {
   margin-top: -100px;
 }
 
@@ -261,7 +261,7 @@ aside {
 
 .img-container {
   margin: 0 auto;
-  background: url("/assets/theuniverse.png");
+  background: url("./assets/theuniverse.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
