@@ -4,13 +4,13 @@ Clone page of NewYork Times
 We made a clone of the NYTimes page, it has a functional video, buttons, and interactive icons. It has mock suggestions showing video name and views, and a mock section for commentaries. The focus of this branch was to make everything fit in the right places.
 ScreenShot:
 
-./assets/ScreenShot.png
+.![screenshot](./assets/ScreenShot.png)
 
 Built With
 HTML
 CSS
 Live Demo
-Live Demo Link
+Live Demo Link : https://dsunilk.github.io/NYTimes-Clone/.
 
 1- Clone the repository
 
