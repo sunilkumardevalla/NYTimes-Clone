@@ -553,7 +553,7 @@ aside {
   color: black;
 }
 
-footer li {
+.footer-align a {
   display: inline-flex;
   color: rgb(97, 91, 91);
   font-size: 11px;
@@ -563,7 +563,9 @@ footer li {
   padding: 10px 5px;
 }
 
-.bottom-header-nav a li {
+.bottom-header-nav a {
+  display: flex;
+  flex-direction: column;
   margin: 10px;
   margin-right: 0;
   margin-left: 0;
