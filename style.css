@@ -118,7 +118,7 @@ figcaption {
   margin-right: auto;
 }
 
-#main-img1 {
+.main-img1 {
   width: 90%;
   height: 90%;
 }
@@ -209,13 +209,13 @@ main section {
   margin-top: 30px;
 }
 
-#main-mid-p {
+.main-mid-p {
   font-size: 15px;
   margin-bottom: 0;
   margin-left: 30px;
 }
 
-#bluefont {
+.bluefont {
   font-size: 17px;
   color: #326891;
   margin-left: 30px;
