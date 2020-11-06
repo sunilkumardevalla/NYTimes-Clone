@@ -1,5 +1,7 @@
 # NYTimes-Clone
 Clone page of NewYork Times 
+
+We made a clone of the NYTimes page, it has a functional video, buttons, and interactive icons. It has mock suggestions showing video name and views, and a mock section for commentaries. The focus of this branch was to make everything fit in the right places.
 ScreenShot:
 
 ./assets/ScreenShot.png
