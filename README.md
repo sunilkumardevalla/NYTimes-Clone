@@ -1,5 +1,8 @@
 # NYTimes-Clone
 Clone page of NewYork Times 
+ScreenShot:
+
+./assets/ScreenShot.png
 
 Built With
 HTML
@@ -17,8 +20,8 @@ Authors
 bust_in_silhouette 
 
 GitHub: @DsunilK 
-Twitter: @
-Linkedin: 
+Twitter: @DsunilK
+Linkedin: @DsunilK
 bust_in_silhouette Angela Cuahutle
 
 GitHub: @angelacuahutle
