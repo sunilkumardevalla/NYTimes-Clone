@@ -32,6 +32,12 @@ aside a {
 
 .nav-left a {
   margin: 15px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+}
+
+.nav-left i {
+  margin: 15px;
 }
 
 main section p {
@@ -40,11 +46,6 @@ main section p {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1.3rem;
   line-height: 1.5625rem;
-}
-
-.nav-left p {
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 700;
 }
 
 /* Navigation Bar Center */
